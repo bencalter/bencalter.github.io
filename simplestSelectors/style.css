@@ -1,0 +1,19 @@
+#b325, .b326, .b329 {
+    font-weight: bold;
+}
+
+#b325, .b326 {
+    border: 1px green solid;
+}
+
+.big {
+    color: blue;
+}
+
+.b329 {
+    background: yellow;
+}
+
+.asteroid {
+    width: 12%;
+}
