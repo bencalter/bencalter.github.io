@@ -1,0 +1,35 @@
+header {
+  background: purple;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  height: 30px;
+  background: cyan;
+  margin: 0px 10px 0px 10px;
+}
+
+.short-link {
+  width: 100px;
+}
+
+.long-link {
+  width: 200px;
+}
+
+section {
+  height: 500px;
+  display: flex;
+}
+
+main {
+  flex-grow: 4;
+  background: yellow;
+}
+
+aside {
+  flex-grow: 1;
+  background: lime;
+}

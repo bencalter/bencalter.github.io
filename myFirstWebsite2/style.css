@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 100px;
+  background: #333333;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.first-link {
+  margin-left: 13%;
+}
+
+.last-link {
+  margin-right: 13%;
+}
+
+#bio:target::before, #achievements:target::before, #experience:target::before, #training:target::before {
+    content: '';
+    display: block;
+    height:      110px;
+    margin-top: -110px;
+}
+
+.page {
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+.first-block {
+  display: flex;
+  margin-right: 1%;
+}
+
+.main-header {
+  height: 800px;
+  background: center no-repeat url("first-website-header.png");
+}
+
+.summary {
+  margin-left: 2%;
+}
+
+.summary li {
+  font-size: 25px;
+}
+
+.summaryparagraph {
+  font-size: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro-text, blockquote {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.introduction {
+  position: relative;
+  top: 60%;
+  left: 70%;
+}
+
+.intro-first-line {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.intro-second-line {
+  font-size: 80px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.paragraph, li, h1, h2, a {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.second-block {
+  display: flex;
+  margin-top: 30px;
+}
+
+.third-block {
+  display: flex;
+  margin-top: 30px;
+}
+
+.fourth-block {
+  display: flex;
+  margin-top: 30px;
+}
+
+blockquote {
+  height: auto;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #444444;
+  color: white;
+  display: flex;
+  font-size: 50px;
+  position: relative;
+}
+
+.quote {
+  padding-left: 6%;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 160px;
+  margin: 0px;
+  padding: 0px;
+  top: -40px;
+  position: absolute;
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
