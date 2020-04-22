@@ -1,0 +1,30 @@
+nav {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    padding: 3%;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    font-size: larger;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background: greenyellow;
+}
+
+.last-link {
+    border-bottom: 1px black solid;
+}
