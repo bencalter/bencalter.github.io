@@ -60,5 +60,5 @@ for (let index = 0; index < colors.length; index++) {
 //});
 
 $(".box").hover((eventObj) => {
-    $("#" + eventObj.target.id).fadeToggle();
+    $("#" + eventObj.target.id).slideToggle("slow");
 });
